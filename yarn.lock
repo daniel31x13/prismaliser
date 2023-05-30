@@ -376,6 +376,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prisma/debug@npm:4.15.0":
+  version: 4.15.0
+  resolution: "@prisma/debug@npm:4.15.0"
+  dependencies:
+    "@types/debug": 4.1.8
+    debug: 4.3.4
+    strip-ansi: 6.0.1
+  checksum: d911fbe540e2f6ecb3912fb871bedef63a6ded94e5f012b5afb580baf44c44dfddff095b22dbf9482bc62411217588892d723a42f0e8c497c20b9354e45ec081
+  languageName: node
+  linkType: hard
+
 "@prisma/debug@npm:4.9.0":
   version: 4.9.0
   resolution: "@prisma/debug@npm:4.9.0"
@@ -441,7 +452,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/generator-helper@npm:4.9.0, @prisma/generator-helper@npm:~4.9.0":
+"@prisma/generator-helper@npm:4.9.0":
   version: 4.9.0
   resolution: "@prisma/generator-helper@npm:4.9.0"
   dependencies:
@@ -450,6 +461,18 @@ __metadata:
     chalk: 4.1.2
     cross-spawn: 7.0.3
   checksum: d9053058d10c7cac1f6928c2c4a4052b3c98a998a989b84c0346303d8e751cfa26252ba2e8ebda9b3678bc48e2f72789af06c372b5f46d0dee71d118cd44f03a
+  languageName: node
+  linkType: hard
+
+"@prisma/generator-helper@npm:~4.15.0":
+  version: 4.15.0
+  resolution: "@prisma/generator-helper@npm:4.15.0"
+  dependencies:
+    "@prisma/debug": 4.15.0
+    "@types/cross-spawn": 6.0.2
+    cross-spawn: 7.0.3
+    kleur: 4.1.5
+  checksum: a8692468b05a34b397bf7acc6fa71047ef7faaaa2208a14daac05efb80692a8592ec48c748bbe44e656095dc4fdaf2c77cd3b5bab2e29bce856ff6b0dac275ea
   languageName: node
   linkType: hard
 
@@ -910,6 +933,15 @@ __metadata:
   dependencies:
     "@types/ms": "*"
   checksum: 0a7b89d8ed72526858f0b61c6fd81f477853e8c4415bb97f48b1b5545248d2ae389931680b94b393b993a7cfe893537a200647d93defe6d87159b96812305adc
+  languageName: node
+  linkType: hard
+
+"@types/debug@npm:4.1.8":
+  version: 4.1.8
+  resolution: "@types/debug@npm:4.1.8"
+  dependencies:
+    "@types/ms": "*"
+  checksum: a9a9bb40a199e9724aa944e139a7659173a9b274798ea7efbc277cb084bc37d32fc4c00877c3496fac4fed70a23243d284adb75c00b5fdabb38a22154d18e5df
   languageName: node
   linkType: hard
 
@@ -4007,6 +4039,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"kleur@npm:4.1.5":
+  version: 4.1.5
+  resolution: "kleur@npm:4.1.5"
+  checksum: 1dc476e32741acf0b1b5b0627ffd0d722e342c1b0da14de3e8ae97821327ca08f9fb944542fb3c126d90ac5f27f9d804edbe7c585bf7d12ef495d115e0f22c12
+  languageName: node
+  linkType: hard
+
 "kleur@npm:^3.0.3":
   version: 3.0.3
   resolution: "kleur@npm:3.0.3"
@@ -5150,7 +5189,7 @@ __metadata:
     "@iconify/icons-simple-icons": ^1.2.41
     "@iconify/react": ^4.0.1
     "@monaco-editor/react": ^4.4.6
-    "@prisma/generator-helper": ~4.9.0
+    "@prisma/generator-helper": ~4.15.0
     "@prisma/internals": ^4.9.0
     "@types/node": ^16.18.11
     "@types/react": ^17.0.53
